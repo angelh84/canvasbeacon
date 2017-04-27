@@ -5,10 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Best Selection of Canvas and Art Prints</title>
+    <title>Best Selection of Art Canvas and Prints</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:300,400,700" rel="stylesheet">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/css/styles.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,11 +24,43 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Welcome to CanvasBeacon.com, the best selection of canvas and art prints!</h1>
+  
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p class="logo">CanvasBeacon.com</p>
+            <h1>Declare your sense of style and personality by decorating your space with the finest collection of art.</h1>
+            <p>We tirelessly searched the internet for the best assortment of art and our quest revealed that Society6 carried one of the most original canvas art and prints that we have ever seen.</p>
+            <p>Time to fill those empty walls with something you love and to help you with just that, our editors have picked the <span>top 10 most exceptional pieces below</span>.</p>
+          </div>
+          <div class="col-sm-6">
+            &nbsp;
+          </div>
+        </div>
+      </div>
+    </header>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <section>
+      <div class="col-sm-12">
+        <div class="art-box">
+          <h2>Alice's Adventures In Wonderland</h2>
+          <a class="author">by Jazzberry Blue</a>
+          <img src="/img/alices-adventures-in-wonderland.jpg" alt="Alice's Adventures In Wonderland">
+          <div class="row">
+            <div class="col-sm-5 col-sm-push-7">
+              <a href="#" class="cta-button">View Profile</a>
+            </div>
+            <div class="col-sm-7 col-sm-pull-5">
+              <a href="">surrealism</a>
+              <a href="">abstract</a>
+              <a href="">wonderland</a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    
   </body>
 </html>
