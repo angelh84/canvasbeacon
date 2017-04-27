@@ -24,7 +24,7 @@
     <![endif]-->
   </head>
   <body>
-  
+
     <header>
       <div class="container">
         <div class="row">
@@ -32,31 +32,30 @@
             <p class="logo">CanvasBeacon.com</p>
             <h1>Declare your sense of style and personality by decorating your space with the finest collection of art.</h1>
             <p>We tirelessly searched the internet for the best assortment of art and our quest revealed that Society6 carried one of the most original canvas art and prints that we have ever seen.</p>
-            <p>Time to fill those empty walls with something you love and to help you with just that, our editors have picked the <span>top 10 most exceptional pieces below</span>.</p>
-          </div>
-          <div class="col-sm-6">
-            &nbsp;
+            <p>Time to fill those empty walls with something you love and to help with just that, our editors have picked the <span>top 10 most exceptional pieces below</span>.</p>
           </div>
         </div>
       </div>
     </header>
 
-    <section>
-      <div class="col-sm-12">
-        <div class="art-box">
-          <h2>Alice's Adventures In Wonderland</h2>
-          <a class="author">by Jazzberry Blue</a>
-          <img src="/img/alices-adventures-in-wonderland.jpg" alt="Alice's Adventures In Wonderland">
-          <div class="row">
-            <div class="col-sm-5 col-sm-push-7">
-              <a href="#" class="cta-button">View Profile</a>
+    <section class="body-content clearfix">
+      <div class="container">
+        <div class="col-sm-12">
+          <div class="art-box">
+            <h2>Alice's Adventures In Wonderland</h2>
+            <a class="author">by Jazzberry Blue</a>
+            <img src="/img/alices-adventures-in-wonderland.jpg" alt="Alice's Adventures In Wonderland">
+            <div class="row">
+              <div class="col-sm-5 col-sm-push-7">
+                <a href="#" class="cta-button">View Profile</a>
+              </div>
+              <div class="col-sm-7 col-sm-pull-5">
+                <a href="">surrealism</a>
+                <a href="">abstract</a>
+                <a href="">wonderland</a>
+              </div>
+              
             </div>
-            <div class="col-sm-7 col-sm-pull-5">
-              <a href="">surrealism</a>
-              <a href="">abstract</a>
-              <a href="">wonderland</a>
-            </div>
-            
           </div>
         </div>
       </div>
