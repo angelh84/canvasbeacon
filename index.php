@@ -40,7 +40,25 @@
 
     <section class="body-content clearfix">
       <div class="container">
-        <div class="col-sm-12">
+        <div class="col-md-6">
+          <div class="art-box">
+            <h2>Alice's Adventures In Wonderland</h2>
+            <a class="author">by Jazzberry Blue</a>
+            <img src="/img/alices-adventures-in-wonderland.jpg" alt="Alice's Adventures In Wonderland">
+            <div class="row">
+              <div class="col-sm-5 col-sm-push-7">
+                <a href="#" class="cta-button">View Profile</a>
+              </div>
+              <div class="col-sm-7 col-sm-pull-5">
+                <a href="">surrealism</a>
+                <a href="">abstract</a>
+                <a href="">wonderland</a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
           <div class="art-box">
             <h2>Alice's Adventures In Wonderland</h2>
             <a class="author">by Jazzberry Blue</a>
