@@ -6,12 +6,12 @@ html {
 }
 
 header {
-	background: #7b7a78 url('/img/kitchen-with-art.jpg') no-repeat center 0;
+	background-color: #f9f1e8;
 	border-bottom: 7px solid #d5cabb;
 }
 
 header p {
-	font-size: 18px;
+	font-size: 16px;
 }
 
 header p span {
@@ -19,54 +19,308 @@ header p span {
 }
 
 h1 {
-	font: 300 36px "Roboto Slab", serif;
+	font: 300 24px "Roboto Slab", serif;
 	color: #5b4b3b;
 	letter-spacing: -2px;
-	margin-bottom: 40px;
+	margin-bottom: 25px;
+}
+
+h2 {
+	font-family: "Roboto Slab", serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #423f3d;
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 p {
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }
 
 img {
 	display: block;
-	margin: 0 auto;
+	max-width: 100%;
 }
 
 .logo {
 	font-family: "Roboto Slab", serif;
-	margin-top: 30px;
-	margin-bottom: 40px;
+	margin-top: 15px;
+	margin-bottom: 30px;
 }
 
 .logo::before {
 	float: left;
 	content: "";
-	background: url('/img/emblem.png') no-repeat 0 0 / 17px;
-	width: 25px;
+	background: url('/img/emblem.png') no-repeat 0 0 / 13px;
+	width: 20px;
     height: 27px;
+}
+
+.world-map {
+	border: 8px solid #fdf9f5;
+	margin: 0 auto 25px;
+}
+
+.position {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 0;
+	margin-left: -45px;
+	font: bold 55px / 0.8em "Roboto Slab";
+	color: #ec4700;
+}
+
+.title-container {
+	padding-left: 42px;
+	margin-bottom: 20px;
+}
+
+.title-box {
+	float: left;
 }
 
 .body-content {
 	width: 100%;
 	background-color: #ebeae8;
+	padding-bottom: 70px;
+}
+
+.author {
+	font-size: 14px;
+	font-style: italic;
+	color: #ec4700;
+	text-decoration: underline;
+}
+
+.author:hover,
+.author:focus {
+	color: #00bff3;
 }
 
 .art-box {
-	text-align: center;
+	margin: 0 auto;
 }
 
+.body-content .col-md-6 {
+	border-top: 10px solid #e0dfdd;
+	padding-top: 50px;
+	margin-top: 50px;
+}
+
+.body-content > .container > .row:first-of-type > .col-md-6:first-of-type {
+	border-top: 0;
+	padding-top: 0;
+}
+
+.cta-button {
+	display: block;
+	width: 150px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+	background-color: #ada8a4;
+	padding: 10px 20px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+}
+
+.cta-button:hover,
+.cta-button:focus {
+	color: #fff;
+	background-color: #ec4700;
+	text-decoration: none;
+	transition: background-color 0.35s;
+}
+
+.categories a { 
+	font-size: 14px;
+	color: #7d7a78;
+	text-decoration: underline;
+}
+
+.categories a:hover,
+.categories a:focus {
+	color: #ec4700;
+}
+
+.categories a::after {
+	content: ",";
+}
+
+.categories a:last-child::after {
+	content: "";
+}
+
+.art-image {
+	margin-bottom: 27px;
+	box-shadow: 3px 5px 20px rgba(0,0,0,0.2),
+	2px 3px 3px rgba(0,0,0,0.25);
+}
+
+
 /* ========== MEDIA QUERIES ============ */
+
+@media (min-width: 375px) {
+
+	h1 {
+		font-size: 28px;
+	}
+
+}
+
+@media (min-width: 600px) {
+
+	.art-box.vertical {
+		width: 425px;
+	}
+
+	.art-box.horizontal {
+		width: 550px;
+	}
+
+}
+
+
+@media (min-width: 768px) {
+
+	header {
+		background: #d5cabb url('/img/kitchen-with-art.jpg') no-repeat center 0;
+		background-size: 1080px;
+    	height: 417px;
+	}
+
+	header p {
+		padding-right: 45px;
+		font-size: 14px;
+	}
+
+	p {
+		margin-bottom: 15px;
+	}
+
+	h1 {
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+
+	.cta-button {
+		float: right;
+		margin-bottom: 0;
+	}
+
+	.body-content .col-md-6 {
+		padding-top: 70px;
+		margin-top: 70px;
+	}
+
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+
+	.logo {
+		margin-top: 15px;
+    	margin-bottom: 25px;
+	}
+
+	.body-content > .container > .row:first-of-type > .col-md-6:first-of-type {
+		margin-top: 0;
+		padding-top: 50px;
+	}
+	
+}
+
+@media (min-width: 992px) {
+
+	header {
+		height: 527px;
+		background-size: 1370px;
+	}
+
+	h1 {
+		font-size: 29px;
+		margin-bottom: 30px;
+	}
+
+	header p {
+		font-size: 16px;
+		padding-right: 15%;
+	}
+
+	.logo {
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}
+
+	p {
+		margin-bottom: 20px;
+	}
+
+	.art-box.vertical {
+		width: 425px;
+	}
+
+	.art-box.horizontal {
+		width: auto;
+	}
+
+	.body-content .container > .row {
+		border-top: 10px solid #e0dfdd;
+		padding-top: 65px;
+		margin-top: 85px;
+	}
+
+	.body-content .container > .row:first-of-type {
+		border-top: 0;
+		margin-top: 0;
+	}
+
+	.body-content .col-md-6 {
+		border-top: 0;
+		padding-top: 0;
+		margin-top: 0;
+	} 
+
+}
 
 @media (min-width: 1200px) {
 
 	header {
 		height: 655px;
+		background-size: auto;
 	}
 
 	header p {
+		font-size: 18px;
 		padding-right: 20%;
+	}
+
+	.logo::before {
+		background-size: 17px;
+		width: 25px;
+	}
+
+	p {
+		margin-bottom: 30px;
+	}
+
+	h1 {
+		font-size: 36px;
+		margin-bottom: 40px;
+	}
+
+	.art-box.vertical {
+		width: 425px;
+	}
+
+	.art-box.horizontal {
+		width: 550px;
+	}
+
+	.body-content .container > .row {
+		padding-top: 90px;
 	}
 
 }
