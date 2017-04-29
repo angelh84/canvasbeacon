@@ -32,7 +32,7 @@
             <p class="logo">CanvasBeacon.com</p>
             <h1>Declare your sense of style and personality by decorating your space with the finest collection of art.</h1>
             <img class="world-map visible-xs-block" src="/img/world-map.jpg" alt="World Map Art">
-            <p>We tirelessly searched the internet for the best assortment of art and our quest revealed that Society6 carried one of the most original canvas art and prints that we have ever seen.</p>
+            <p>We tirelessly searched the internet for the best assortment of art and our quest revealed one of the most original collection of canvas art and prints that we have ever seen.</p>
             <p>To help you fill those empty walls our editors have picked the <span>top 10 most exceptional art pieces below</span>.</p>
           </div>
         </div>
