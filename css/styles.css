@@ -193,7 +193,7 @@ img {
 	}
 
 	header p {
-		padding-right: 45px;
+		padding-right: 95px;
 		font-size: 14px;
 	}
 
@@ -202,7 +202,7 @@ img {
 	}
 
 	h1 {
-		font-size: 24px;
+		font-size: 26px;
 		margin-bottom: 20px;
 	}
 
@@ -222,7 +222,7 @@ img {
 
 	.logo {
 		margin-top: 15px;
-    	margin-bottom: 25px;
+    	margin-bottom: 20px;
 	}
 
 	.body-content > .container > .row:first-of-type > .col-md-6:first-of-type {
