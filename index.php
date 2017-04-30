@@ -302,7 +302,7 @@
               <div class="cta-box">
                   <div class="price-like-box clearfix">
                     <p class="price"><sup>$</sup>68.00</p>
-                    <p class="hearts"><span>3241</span></p>
+                    <p class="hearts"><span>3275</span></p>
                   </div>
                   <a href="https://society6.com/product/urban-sunset-awn_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
                   <a href="https://society6.com/canvas/abstract?curator=angelh84" class="category">abstract</a>
