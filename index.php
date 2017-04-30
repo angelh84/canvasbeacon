@@ -8,7 +8,7 @@
     <title>Best Selection of Art Canvas and Prints</title>
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,700|Roboto:300,400,700" rel="stylesheet">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -42,7 +42,7 @@
     <section class="body-content clearfix">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-sm-12 col-md-9 col-md-offset-1">
             <div class="art-box vertical">
               <div class="title-container clearfix">
                 <p class="position">1</p>
@@ -52,19 +52,22 @@
                 </div>  
               </div>
               <img class="art-image" src="/img/alices-adventures-in-wonderland.jpg" alt="Alice's Adventures In Wonderland">
-              <div class="row">
-                <div class="col-sm-5 col-sm-push-7">
+              <div class="cta-box">
+                  <div class="price-like-box clearfix">
+                    <p class="price"><sup>$</sup>71.20</p>
+                    <p class="hearts"><span>488</span></p>
+                  </div>
                   <a href="#" class="cta-button">View Profile</a>
-                </div>
-                <div class="col-sm-7 col-sm-pull-5 categories">
-                  <a href="#">surrealism</a>
-                  <a href="#">abstract</a>
-                  <a href="#">wonderland</a>
-                </div>
+                  <a href="#" class="category">surrealism</a>
+                  <a href="#" class="category">abstract</a>
+                  <a href="#" class="category">wonderland</a>
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+        </div><!-- .row -->
+
+        <div class="row">
+          <div class="col-sm-12 col-md-10 col-md-offset-1">
             <div class="art-box horizontal">
               <div class="title-container clearfix">
                 <p class="position">2</p>
@@ -74,22 +77,22 @@
                 </div>  
               </div>
               <img class="art-image" src="/img/pop-art-feathers.jpg" alt="Feathers">
-              <div class="row">
-                <div class="col-sm-5 col-sm-push-7">
+              <div class="cta-box">
+                  <div class="price-like-box clearfix">
+                    <p class="price"><sup>$</sup>71.20</p>
+                    <p class="hearts"><span>488</span></p>
+                  </div>
                   <a href="#" class="cta-button">View Profile</a>
-                </div>
-                <div class="col-sm-7 col-sm-pull-5 categories">
-                  <a href="#">surrealism</a>
-                  <a href="#">abstract</a>
-                  <a href="#">wonderland</a>
-                </div>
+                  <a href="#" class="category">surrealism</a>
+                  <a href="#" class="category">abstract</a>
+                  <a href="#" class="category">wonderland</a>
               </div>
             </div>
           </div>
         </div> <!-- .row -->
 
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-sm-12 col-md-10 col-md-offset-1">
             <div class="art-box horizontal">
               <div class="title-container clearfix">
                 <p class="position">3</p>
@@ -99,19 +102,22 @@
                 </div>  
               </div>
               <img class="art-image" src="/img/the-parking-ticket.jpg" alt="The Parking Ticket">
-              <div class="row">
-                <div class="col-sm-5 col-sm-push-7">
+              <div class="cta-box">
+                  <div class="price-like-box clearfix">
+                    <p class="price"><sup>$</sup>71.20</p>
+                    <p class="hearts"><span>488</span></p>
+                  </div>
                   <a href="#" class="cta-button">View Profile</a>
-                </div>
-                <div class="col-sm-7 col-sm-pull-5 categories">
-                  <a href="#">surrealism</a>
-                  <a href="#">abstract</a>
-                  <a href="#">wonderland</a>
-                </div>
+                  <a href="#" class="category">surrealism</a>
+                  <a href="#" class="category">abstract</a>
+                  <a href="#" class="category">wonderland</a>
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+        </div><!-- .row -->
+
+        <div class="row">
+          <div class="col-sm-12 col-md-9 col-md-offset-1">
             <div class="art-box vertical">
               <div class="title-container clearfix">
                 <p class="position">4</p>
@@ -121,22 +127,22 @@
                 </div>  
               </div>
               <img class="art-image" src="/img/dissolve-me.jpg" alt="Dissolve Me">
-              <div class="row">
-                <div class="col-sm-5 col-sm-push-7">
+              <div class="cta-box">
+                  <div class="price-like-box clearfix">
+                    <p class="price"><sup>$</sup>71.20</p>
+                    <p class="hearts"><span>488</span></p>
+                  </div>
                   <a href="#" class="cta-button">View Profile</a>
-                </div>
-                <div class="col-sm-7 col-sm-pull-5 categories">
-                  <a href="#">surrealism</a>
-                  <a href="#">abstract</a>
-                  <a href="#">wonderland</a>
-                </div>
+                  <a href="#" class="category">surrealism</a>
+                  <a href="#" class="category">abstract</a>
+                  <a href="#" class="category">wonderland</a>
               </div>
             </div>
           </div>
         </div> <!-- .row -->
 
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-sm-12 col-md-9 col-md-offset-1">
             <div class="art-box horizontal">
               <div class="title-container clearfix">
                 <p class="position">5</p>
@@ -146,19 +152,22 @@
                 </div>  
               </div>
               <img class="art-image" src="/img/grand-avenue.jpg" alt="Grand Avenue">
-              <div class="row">
-                <div class="col-sm-5 col-sm-push-7">
+              <div class="cta-box">
+                  <div class="price-like-box clearfix">
+                    <p class="price"><sup>$</sup>71.20</p>
+                    <p class="hearts"><span>488</span></p>
+                  </div>
                   <a href="#" class="cta-button">View Profile</a>
-                </div>
-                <div class="col-sm-7 col-sm-pull-5 categories">
-                  <a href="#">surrealism</a>
-                  <a href="#">abstract</a>
-                  <a href="#">wonderland</a>
-                </div>
+                  <a href="#" class="category">surrealism</a>
+                  <a href="#" class="category">abstract</a>
+                  <a href="#" class="category">wonderland</a>
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+        </div><!-- .row -->
+
+        <div class="row">
+          <div class="col-sm-12 col-md-9 col-md-offset-1">
             <div class="art-box horizontal">
               <div class="title-container clearfix">
                 <p class="position">6</p>
@@ -168,22 +177,22 @@
                 </div>  
               </div>
               <img class="art-image" src="/img/zebra.jpg" alt="Zebra">
-              <div class="row">
-                <div class="col-sm-5 col-sm-push-7">
+              <div class="cta-box">
+                  <div class="price-like-box clearfix">
+                    <p class="price"><sup>$</sup>71.20</p>
+                    <p class="hearts"><span>488</span></p>
+                  </div>
                   <a href="#" class="cta-button">View Profile</a>
-                </div>
-                <div class="col-sm-7 col-sm-pull-5 categories">
-                  <a href="#">surrealism</a>
-                  <a href="#">abstract</a>
-                  <a href="#">wonderland</a>
-                </div>
+                  <a href="#" class="category">surrealism</a>
+                  <a href="#" class="category">abstract</a>
+                  <a href="#" class="category">wonderland</a>
               </div>
             </div>
           </div>
         </div> <!-- .row -->
 
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-sm-12 col-md-9 col-md-offset-1">
             <div class="art-box horizontal">
               <div class="title-container clearfix">
                 <p class="position">7</p>
@@ -193,19 +202,22 @@
                 </div>  
               </div>
               <img class="art-image" src="/img/rhythm-of-grief.jpg" alt="Rhythm Of Grief">
-              <div class="row">
-                <div class="col-sm-5 col-sm-push-7">
+              <div class="cta-box">
+                  <div class="price-like-box clearfix">
+                    <p class="price"><sup>$</sup>71.20</p>
+                    <p class="hearts"><span>488</span></p>
+                  </div>
                   <a href="#" class="cta-button">View Profile</a>
-                </div>
-                <div class="col-sm-7 col-sm-pull-5 categories">
-                  <a href="#">surrealism</a>
-                  <a href="#">abstract</a>
-                  <a href="#">wonderland</a>
-                </div>
+                  <a href="#" class="category">surrealism</a>
+                  <a href="#" class="category">abstract</a>
+                  <a href="#" class="category">wonderland</a>
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12 col-md-9 col-md-offset-1">
             <div class="art-box vertical">
               <div class="title-container clearfix">
                 <p class="position">8</p>
@@ -215,22 +227,22 @@
                 </div>  
               </div>
               <img class="art-image" src="/img/archilles.jpg" alt="Archilles">
-              <div class="row">
-                <div class="col-sm-5 col-sm-push-7">
+              <div class="cta-box">
+                  <div class="price-like-box clearfix">
+                    <p class="price"><sup>$</sup>71.20</p>
+                    <p class="hearts"><span>488</span></p>
+                  </div>
                   <a href="#" class="cta-button">View Profile</a>
-                </div>
-                <div class="col-sm-7 col-sm-pull-5 categories">
-                  <a href="#">surrealism</a>
-                  <a href="#">abstract</a>
-                  <a href="#">wonderland</a>
-                </div>
+                  <a href="#" class="category">surrealism</a>
+                  <a href="#" class="category">abstract</a>
+                  <a href="#" class="category">wonderland</a>
               </div>
             </div>
           </div>
         </div> <!-- .row -->
 
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-sm-12 col-md-9 col-md-offset-1">
             <div class="art-box vertical">
               <div class="title-container clearfix">
                 <p class="position">9</p>
@@ -240,19 +252,22 @@
                 </div>  
               </div>
               <img class="art-image" src="/img/without-words.jpg" alt="Without Words">
-              <div class="row">
-                <div class="col-sm-5 col-sm-push-7">
+              <div class="cta-box">
+                  <div class="price-like-box clearfix">
+                    <p class="price"><sup>$</sup>71.20</p>
+                    <p class="hearts"><span>488</span></p>
+                  </div>
                   <a href="#" class="cta-button">View Profile</a>
-                </div>
-                <div class="col-sm-7 col-sm-pull-5 categories">
-                  <a href="#">surrealism</a>
-                  <a href="#">abstract</a>
-                  <a href="#">wonderland</a>
-                </div>
+                  <a href="#" class="category">surrealism</a>
+                  <a href="#" class="category">abstract</a>
+                  <a href="#" class="category">wonderland</a>
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+        </div> <!-- .row -->
+
+        <div class="row">
+          <div class="col-sm-12 col-md-9 col-md-offset-1">
             <div class="art-box horizontal">
               <div class="title-container clearfix">
                 <p class="position">10</p>
@@ -262,20 +277,19 @@
                 </div>  
               </div>
               <img class="art-image" src="/img/urban-sunset.jpg" alt="Urban Sunset">
-              <div class="row">
-                <div class="col-sm-5 col-sm-push-7">
+              <div class="cta-box">
+                  <div class="price-like-box clearfix">
+                    <p class="price"><sup>$</sup>71.20</p>
+                    <p class="hearts"><span>488</span></p>
+                  </div>
                   <a href="#" class="cta-button">View Profile</a>
-                </div>
-                <div class="col-sm-7 col-sm-pull-5 categories">
-                  <a href="#">surrealism</a>
-                  <a href="#">abstract</a>
-                  <a href="#">wonderland</a>
-                </div>
+                  <a href="#" class="category">surrealism</a>
+                  <a href="#" class="category">abstract</a>
+                  <a href="#" class="category">wonderland</a>
               </div>
             </div>
           </div>
         </div> <!-- .row -->
-
 
       </div> <!-- .container -->
     </section>

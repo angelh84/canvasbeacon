@@ -99,31 +99,27 @@ img {
 	color: #00bff3;
 }
 
-.art-box {
-	margin: 0 auto;
-}
-
-.body-content .col-md-6 {
+.body-content .container > .row {
 	border-top: 10px solid #e0dfdd;
-	padding-top: 50px;
+	padding-top: 60px;
 	margin-top: 50px;
 }
 
-.body-content > .container > .row:first-of-type > .col-md-6:first-of-type {
+.body-content > .container > .row:first-of-type {
 	border-top: 0;
 	padding-top: 0;
 }
 
 .cta-button {
 	display: block;
-	width: 150px;
+	width: 130px;
 	text-align: center;
 	color: #fff;
-	font-size: 16px;
+	font-size: 14px;
 	text-transform: uppercase;
 	background-color: #ada8a4;
-	padding: 10px 20px;
-	margin-bottom: 15px;
+	padding: 10px;
+	margin-bottom: 20px;
 	border-radius: 5px;
 }
 
@@ -132,26 +128,25 @@ img {
 	color: #fff;
 	background-color: #ec4700;
 	text-decoration: none;
-	transition: background-color 0.35s;
 }
 
-.categories a { 
+.category { 
+	display: inline-block;
 	font-size: 14px;
-	color: #7d7a78;
-	text-decoration: underline;
+	color: #88a9cf;
+	background-color: #f1f0ed;
+    text-align: center;
+    border: 1px solid #deddda;
+	padding: 3px 10px;
+    margin-right: 5px;
+    margin-bottom: 8px;
 }
 
-.categories a:hover,
-.categories a:focus {
-	color: #ec4700;
-}
-
-.categories a::after {
-	content: ",";
-}
-
-.categories a:last-child::after {
-	content: "";
+.category:hover,
+.category:focus {
+	color: #00bff3;
+	text-decoration: none;
+	background-color: #fff;
 }
 
 .art-image {
@@ -160,8 +155,52 @@ img {
 	2px 3px 3px rgba(0,0,0,0.25);
 }
 
+.price-like-box {
+	float: right;
+	width: 120px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+.price {
+	float: left;
+	width: 51%;
+	border-right: 1px solid #ccc9c6;
+	color: #807c78;
+	font-weight: 300;
+	margin: 0;
+	font-size: 14px;
+}
+
+.price sup {
+	top: -.4em;
+    padding-right: 2px;
+}
+
+.hearts {
+	font-size: 14px;
+	font-weight: bold;
+	color: #454241;
+	float: right;
+	width: 49%;
+	text-align: right;
+	margin: 0;
+}
+
+.hearts span::before {
+	content: "";
+	background: url(/img/heart.png) no-repeat 0 0;
+	background-size: 16px;
+	width: 16px;
+    height: 19px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
 
 /* ========== MEDIA QUERIES ============ */
+
 
 @media (min-width: 375px) {
 
@@ -169,20 +208,24 @@ img {
 		font-size: 28px;
 	}
 
+	.cta-button {
+		width: 150px;
+	}
+
+	.price-like-box {
+		width: 136px;
+	}
+
 }
 
-@media (min-width: 600px) {
+@media (min-width: 470px) {
 
-	.art-box.vertical {
+	.art-box {
+		margin: 0 auto;
 		width: 425px;
 	}
 
-	.art-box.horizontal {
-		width: 550px;
-	}
-
 }
-
 
 @media (min-width: 768px) {
 
@@ -206,15 +249,55 @@ img {
 		margin-bottom: 20px;
 	}
 
-	.cta-button {
-		float: right;
-		margin-bottom: 0;
-	}
-
 	.body-content .col-md-6 {
 		padding-top: 70px;
 		margin-top: 70px;
 	}
+
+	.body-content > .container > .row:first-of-type {
+		padding-top: 20px;
+	}
+
+	.art-image {
+		position: absolute;
+		top: 0;
+		right: 15px;
+	}
+
+	.art-box {
+		margin: 0;
+		width: 260px;
+	}
+
+	.art-box.vertical {
+		min-height: 540px;
+	}
+
+	.art-box.horizontal {
+		min-height: 410px;
+	}
+
+	.art-box.horizontal .art-image {
+		width: 425px;
+	}
+
+	.title-container {
+		margin-bottom: 40px;
+	}
+
+	.cta-box {
+		padding-left: 45px;
+	}
+
+	.price {
+		font-size: 16px;
+	}
+
+	.price-like-box {
+		float: none;
+		width: 149px;
+	}
+
 
 }
 
@@ -225,9 +308,8 @@ img {
     	margin-bottom: 20px;
 	}
 
-	.body-content > .container > .row:first-of-type > .col-md-6:first-of-type {
-		margin-top: 0;
-		padding-top: 50px;
+	.art-image {
+		right: 20px;
 	}
 	
 }
@@ -249,39 +331,24 @@ img {
 		padding-right: 15%;
 	}
 
-	.logo {
-		margin-top: 30px;
-		margin-bottom: 40px;
-	}
-
 	p {
 		margin-bottom: 20px;
 	}
 
-	.art-box.vertical {
-		width: 425px;
-	}
-
-	.art-box.horizontal {
-		width: auto;
-	}
-
-	.body-content .container > .row {
-		border-top: 10px solid #e0dfdd;
-		padding-top: 65px;
-		margin-top: 85px;
-	}
-
-	.body-content .container > .row:first-of-type {
-		border-top: 0;
-		margin-top: 0;
+	.logo {
+		margin-top: 30px;
+		margin-bottom: 40px;
 	}
 
 	.body-content .col-md-6 {
 		border-top: 0;
 		padding-top: 0;
 		margin-top: 0;
-	} 
+	}
+
+	.art-box.horizontal .art-image {
+		width: 506px;
+	}
 
 }
 
@@ -311,16 +378,17 @@ img {
 		margin-bottom: 40px;
 	}
 
-	.art-box.vertical {
-		width: 425px;
+	.art-box {
+		width: 340px;
 	}
 
-	.art-box.horizontal {
-		width: 550px;
+	.art-box.horizontal .art-image {
+		width: 523px;
 	}
 
 	.body-content .container > .row {
-		padding-top: 90px;
+		padding-top: 70px;
 	}
+
 
 }
