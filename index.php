@@ -48,19 +48,21 @@
                 <p class="position">1</p>
                 <div class="title-box">
                   <h2>Alice's Adventures In Wonderland</h2>
-                  <a class="author">by Jazzberry Blue</a>  
+                  <a href="https://society6.com/jazzberryblue?curator=angelh84" class="author">by Jazzberry Blue</a>  
                 </div>  
               </div>
-              <img class="art-image" src="/img/alices-adventures-in-wonderland.jpg" alt="Alice's Adventures In Wonderland">
+              <a href="https://society6.com/product/alices-adventures-in-wonderland-t8z_stretched-canvas?curator=angelh84" class="art-image" >
+                <img src="/img/alices-adventures-in-wonderland.jpg" alt="Alice's Adventures In Wonderland">
+              </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
-                    <p class="price"><sup>$</sup>71.20</p>
-                    <p class="hearts"><span>488</span></p>
+                    <p class="price"><sup>$</sup>75.65</p>
+                    <p class="hearts"><span>489</span></p>
                   </div>
-                  <a href="#" class="cta-button">View Profile</a>
-                  <a href="#" class="category">surrealism</a>
-                  <a href="#" class="category">abstract</a>
-                  <a href="#" class="category">wonderland</a>
+                  <a href="https://society6.com/product/alices-adventures-in-wonderland-t8z_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
+                  <a href="https://society6.com/canvas/surrealism?curator=angelh84" class="category">surrealism</a>
+                  <a href="https://society6.com/canvas/abstract?curator=angelh84" class="category">abstract</a>
+                  <a href="https://society6.com/canvas/wonderland?curator=angelh84" class="category">wonderland</a>
               </div>
             </div>
           </div>
@@ -73,44 +75,48 @@
                 <p class="position">2</p>
                 <div class="title-box">
                   <h2>Pop Art Feathers</h2>
-                  <a class="author">by Bri.buckley</a>  
+                  <a href="https://society6.com/bribuckley?curator=angelh84" class="author">by Bri.buckley</a>  
                 </div>  
               </div>
-              <img class="art-image" src="/img/pop-art-feathers.jpg" alt="Feathers">
+              <a href="https://society6.com/product/pop-art-feathers_stretched-canvas?curator=angelh84" class="art-image">
+                <img src="/img/pop-art-feathers.jpg" alt="Feathers">
+              </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
-                    <p class="price"><sup>$</sup>71.20</p>
-                    <p class="hearts"><span>488</span></p>
+                    <p class="price"><sup>$</sup>72.25</p>
+                    <p class="hearts"><span>1071</span></p>
                   </div>
-                  <a href="#" class="cta-button">View Profile</a>
-                  <a href="#" class="category">surrealism</a>
-                  <a href="#" class="category">abstract</a>
-                  <a href="#" class="category">wonderland</a>
+                  <a href="https://society6.com/product/pop-art-feathers_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
+                  <a href="https://society6.com/canvas/illustration?curator=angelh84" class="category">illustration</a>
+                  <a href="https://society6.com/canvas/nature?curator=angelh84" class="category">nature</a>
+                  <a href="https://society6.com/canvas/pop-art?curator=angelh84" class="category">pop-art</a>
               </div>
             </div>
           </div>
         </div> <!-- .row -->
 
-        <div class="row">
+         <div class="row">
           <div class="col-sm-12 col-md-10 col-md-offset-1">
             <div class="art-box horizontal">
               <div class="title-container clearfix">
                 <p class="position">3</p>
                 <div class="title-box">
-                  <h2>The Parking Ticket</h2>
-                  <a class="author">by Scott Listfield</a>  
+                  <h2>Grand Avenue</h2>
+                  <a href="https://society6.com/timjarosz?curator=angelh84" class="author">by Tim Jarosz</a>  
                 </div>  
               </div>
-              <img class="art-image" src="/img/the-parking-ticket.jpg" alt="The Parking Ticket">
+              <a href="https://society6.com/product/a-grand-avenue_stretched-canvas?curator=angelh84" class="art-image">
+                <img src="/img/grand-avenue.jpg" alt="Grand Avenue">
+              </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
-                    <p class="price"><sup>$</sup>71.20</p>
-                    <p class="hearts"><span>488</span></p>
+                    <p class="price"><sup>$</sup>72.25</p>
+                    <p class="hearts"><span>2240</span></p>
                   </div>
-                  <a href="#" class="cta-button">View Profile</a>
-                  <a href="#" class="category">surrealism</a>
-                  <a href="#" class="category">abstract</a>
-                  <a href="#" class="category">wonderland</a>
+                  <a href="https://society6.com/product/a-grand-avenue_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
+                  <a href="https://society6.com/canvas/illustration?curator=angelh84" class="category">illustration</a>
+                  <a href="https://society6.com/canvas/graphic-design?curator=angelh84" class="category">graphic-design</a>
+                  <a href="https://society6.com/canvas/collage?curator=angelh84" class="category">collage</a>
               </div>
             </div>
           </div>
@@ -126,48 +132,53 @@
                   <a class="author">by Daniel Taylor</a>  
                 </div>  
               </div>
-              <img class="art-image" src="/img/dissolve-me.jpg" alt="Dissolve Me">
+              <a href="https://society6.com/product/dissolve-me-gg6_stretched-canvas?curator=angelh84" class="art-image">
+                <img src="/img/dissolve-me.jpg" alt="Dissolve Me">
+              </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
-                    <p class="price"><sup>$</sup>71.20</p>
-                    <p class="hearts"><span>488</span></p>
+                    <p class="price"><sup>$</sup>81.60</p>
+                    <p class="hearts"><span>4970</span></p>
                   </div>
-                  <a href="#" class="cta-button">View Profile</a>
-                  <a href="#" class="category">surrealism</a>
-                  <a href="#" class="category">abstract</a>
-                  <a href="#" class="category">wonderland</a>
+                  <a href="https://society6.com/product/dissolve-me-gg6_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
+                  <a href="#" class="category">black-white</a>
+                  <a href="https://society6.com/canvas/illustration?curator=angelh84" class="category">illustration</a>
+                  <a href="https://society6.com/canvas/people?curator=angelh84" class="category">people</a>
               </div>
             </div>
           </div>
         </div> <!-- .row -->
 
         <div class="row">
-          <div class="col-sm-12 col-md-9 col-md-offset-1">
+          <div class="col-sm-12 col-md-10 col-md-offset-1">
             <div class="art-box horizontal">
               <div class="title-container clearfix">
                 <p class="position">5</p>
                 <div class="title-box">
-                  <h2>Grand Avenue</h2>
-                  <a class="author">by Tim Jarosz</a>  
+                  <h2>The Parking Ticket</h2>
+                  <a href="https://society6.com/scottlistfield?curator=angelh84" class="author">by Scott Listfield</a>  
                 </div>  
               </div>
-              <img class="art-image" src="/img/grand-avenue.jpg" alt="Grand Avenue">
+              <a href="https://society6.com/product/the-parking-ticket_stretched-canvas?curator=angelh84" class="art-image">
+                <img src="/img/the-parking-ticket.jpg" alt="The Parking Ticket">
+              </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
-                    <p class="price"><sup>$</sup>71.20</p>
-                    <p class="hearts"><span>488</span></p>
+                    <p class="price"><sup>$</sup>72.25</p>
+                    <p class="hearts"><span>326</span></p>
                   </div>
-                  <a href="#" class="cta-button">View Profile</a>
-                  <a href="#" class="category">surrealism</a>
-                  <a href="#" class="category">abstract</a>
-                  <a href="#" class="category">wonderland</a>
+                  <a href="https://society6.com/product/the-parking-ticket_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
+                  <a href="https://society6.com/canvas/movies-tv?curator=angelh84" class="category">movies-tv</a>
+                  <a href="https://society6.com/canvas/sci-fi?curator=angelh84" class="category">sci-fi</a>
+                  <a href="https://society6.com/canvas/humor?curator=angelh84" class="category">humor</a>
+                  <a href="https://society6.com/canvas/pop-surrealism?curator=angelh84" class="category">pop-surrealism</a>
               </div>
             </div>
           </div>
         </div><!-- .row -->
 
         <div class="row">
-          <div class="col-sm-12 col-md-9 col-md-offset-1">
+          <div class="col-sm-12 col-md-10 col-md-offset-1">
             <div class="art-box horizontal">
               <div class="title-container clearfix">
                 <p class="position">6</p>
@@ -176,41 +187,45 @@
                   <a class="author">by Jazzberry Blue</a>  
                 </div>  
               </div>
-              <img class="art-image" src="/img/zebra.jpg" alt="Zebra">
+              <a href="https://society6.com/product/zebra-tvf_stretched-canvas?curator=angelh84" class="art-image">
+                <img src="/img/zebra.jpg" alt="Zebra">
+              </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
-                    <p class="price"><sup>$</sup>71.20</p>
-                    <p class="hearts"><span>488</span></p>
+                    <p class="price"><sup>$</sup>75.65</p>
+                    <p class="hearts"><span>1040</span></p>
                   </div>
-                  <a href="#" class="cta-button">View Profile</a>
-                  <a href="#" class="category">surrealism</a>
-                  <a href="#" class="category">abstract</a>
-                  <a href="#" class="category">wonderland</a>
+                  <a href="https://society6.com/product/zebra-tvf_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
+                  <a href="https://society6.com/canvas/graphic-design?curator=angelh84" class="category">graphic-design</a>
+                  <a href="https://society6.com/canvas/pop-art?curator=angelh84" class="category">pop-art</a>
+                  <a href="https://society6.com/canvas/zebra?curator=angelh84" class="category">zebra</a>
               </div>
             </div>
           </div>
         </div> <!-- .row -->
 
         <div class="row">
-          <div class="col-sm-12 col-md-9 col-md-offset-1">
+          <div class="col-sm-12 col-md-10 col-md-offset-1">
             <div class="art-box horizontal">
               <div class="title-container clearfix">
                 <p class="position">7</p>
                 <div class="title-box">
                   <h2>Rhythm Of Grief</h2>
-                  <a class="author">by Karl James Mountford</a>  
+                  <a href="https://society6.com/karljmountford?curator=angelh84" class="author">by Karl James Mountford</a>  
                 </div>  
               </div>
-              <img class="art-image" src="/img/rhythm-of-grief.jpg" alt="Rhythm Of Grief">
+              <a href="https://society6.com/product/rhythm-of-grief_stretched-canvas?curator=angelh84" class="art-image">
+                <img src="/img/rhythm-of-grief.jpg" alt="Rhythm Of Grief">
+              </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
-                    <p class="price"><sup>$</sup>71.20</p>
-                    <p class="hearts"><span>488</span></p>
+                    <p class="price"><sup>$</sup>72.25</p>
+                    <p class="hearts"><span>611</span></p>
                   </div>
-                  <a href="#" class="cta-button">View Profile</a>
-                  <a href="#" class="category">surrealism</a>
-                  <a href="#" class="category">abstract</a>
-                  <a href="#" class="category">wonderland</a>
+                  <a href="https://society6.com/product/rhythm-of-grief_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
+                  <a href="https://society6.com/canvas/illustration?curator=angelh84" class="category">illustration</a>
+                  <a href="#" class="category">nature</a>
+                  <a href="https://society6.com/canvas/pop-surrealism?curator=angelh84" class="category">pop-surrealism</a>
               </div>
             </div>
           </div>
@@ -223,19 +238,21 @@
                 <p class="position">8</p>
                 <div class="title-box">
                   <h2>Archilles</h2>
-                  <a class="author">by Marc Allante</a>  
+                  <a href="https://society6.com/marcallante?curator=angelh84" class="author">by Marc Allante</a>  
                 </div>  
               </div>
-              <img class="art-image" src="/img/archilles.jpg" alt="Archilles">
+              <a href="https://society6.com/product/achilles-wmi_stretched-canvas?curator=angelh84" class="art-image">
+                <img src="/img/archilles.jpg" alt="Archilles">
+              </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
-                    <p class="price"><sup>$</sup>71.20</p>
-                    <p class="hearts"><span>488</span></p>
+                    <p class="price"><sup>$</sup>72.25</p>
+                    <p class="hearts"><span>1016</span></p>
                   </div>
-                  <a href="#" class="cta-button">View Profile</a>
-                  <a href="#" class="category">surrealism</a>
-                  <a href="#" class="category">abstract</a>
-                  <a href="#" class="category">wonderland</a>
+                  <a href="https://society6.com/product/achilles-wmi_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
+                  <a href="https://society6.com/canvas/painting?curator=angelh84" class="category">painting</a>
+                  <a href="https://society6.com/canvas/pop-surrealism?curator=angelh84" class="category">pop-surrealism</a>
+                  <a href="https://society6.com/canvas/pop-art?curator=angelh84" class="category">pop-art</a>
               </div>
             </div>
           </div>
@@ -248,44 +265,50 @@
                 <p class="position">9</p>
                 <div class="title-box">
                   <h2>Without Words</h2>
-                  <a class="author">by RubbishMonkey</a>  
+                  <a href="https://society6.com/rubbishmonkey?curator=angelh84" class="author">by RubbishMonkey</a>  
                 </div>  
               </div>
-              <img class="art-image" src="/img/without-words.jpg" alt="Without Words">
+              <a href="https://society6.com/product/without-words-ity_stretched-canvas?curator=angelh84" class="art-image">
+                <img src="/img/without-words.jpg" alt="Without Words">
+              </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
-                    <p class="price"><sup>$</sup>71.20</p>
-                    <p class="hearts"><span>488</span></p>
+                    <p class="price"><sup>$</sup>72.25</p>
+                    <p class="hearts"><span>1703</span></p>
                   </div>
-                  <a href="#" class="cta-button">View Profile</a>
-                  <a href="#" class="category">surrealism</a>
-                  <a href="#" class="category">abstract</a>
-                  <a href="#" class="category">wonderland</a>
+                  <a href="https://society6.com/product/without-words-ity_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
+                  <a href="https://society6.com/canvas/animals?curator=angelh84" class="category">animals</a>
+                  <a href="https://society6.com/canvas/nature?curator=angelh84" class="category">nature</a>
+                  <a href="https://society6.com/canvas/sci-fi?curator=angelh84" class="category">sci-fi</a>
+                  <a href="https://society6.com/canvas/pop-surrealism?curator=angelh84" class="category">pop-surrealism</a>
               </div>
             </div>
           </div>
         </div> <!-- .row -->
 
         <div class="row">
-          <div class="col-sm-12 col-md-9 col-md-offset-1">
+          <div class="col-sm-12 col-md-10 col-md-offset-1">
             <div class="art-box horizontal">
               <div class="title-container clearfix">
                 <p class="position">10</p>
                 <div class="title-box">
                   <h2>Urban Sunset</h2>
-                  <a class="author">by SensualPatterns</a>  
+                  <a href="https://society6.com/sensualpatterns?curator=angelh84" class="author">by SensualPatterns</a>  
                 </div>  
               </div>
-              <img class="art-image" src="/img/urban-sunset.jpg" alt="Urban Sunset">
+              <a href="https://society6.com/product/urban-sunset-awn_stretched-canvas?curator=angelh84" class="art-image">
+                <img src="/img/urban-sunset.jpg" alt="Urban Sunset">
+              </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
-                    <p class="price"><sup>$</sup>71.20</p>
-                    <p class="hearts"><span>488</span></p>
+                    <p class="price"><sup>$</sup>68.00</p>
+                    <p class="hearts"><span>3241</span></p>
                   </div>
-                  <a href="#" class="cta-button">View Profile</a>
-                  <a href="#" class="category">surrealism</a>
-                  <a href="#" class="category">abstract</a>
-                  <a href="#" class="category">wonderland</a>
+                  <a href="https://society6.com/product/urban-sunset-awn_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
+                  <a href="https://society6.com/canvas/abstract?curator=angelh84" class="category">abstract</a>
+                  <a href="https://society6.com/canvas/urban?curator=angelh84" class="category">urban</a>
+                  <a href="https://society6.com/canvas/pattern?curator=angelh84" class="category">pattern</a>
+                  <a href="https://society6.com/canvas/geometry?curator=angelh84" class="category">geometry</a>
               </div>
             </div>
           </div>
@@ -293,6 +316,50 @@
 
       </div> <!-- .container -->
     </section>
+
+    <!-- Javascript -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">  
+    </script>
+
+    <script>
+      var resizeEvent = (function () {
+        var timers = {};
+        return function (callback, ms, uniqueId) {
+            if (!uniqueId) {
+                uniqueId = "Don't call this twice without a uniqueId";
+            }
+            if (timers[uniqueId]) {
+                clearTimeout (timers[uniqueId]);
+            }
+            timers[uniqueId] = setTimeout(callback, ms);
+        };
+      })();
+
+      var setHeight = function (reference, target) {
+        if ( $(window).width() > 767 ) {
+          $(reference).each(function() {
+            $(this).parents(target).height( $(this).height() );
+          });
+        }
+      };
+
+      $(window).resize(function () {
+        resizeEvent(function(){
+          if ( $(window).width() < 768 ) {
+            $('.art-box').removeAttr('style');
+          } else {
+            setHeight('.art-image', '.art-box');  
+          }
+        }, 250, "art-box-resize-event");
+      });
+
+      $(window).on('load', function () {
+        setHeight('.art-image', '.art-box');
+      });
+    </script>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

@@ -59,7 +59,7 @@ img {
 }
 
 .world-map {
-	border: 8px solid #fdf9f5;
+	border: 5px solid #e0d0bf;
 	margin: 0 auto 25px;
 }
 
@@ -150,6 +150,7 @@ img {
 }
 
 .art-image {
+	display: block;
 	margin-bottom: 27px;
 	box-shadow: 3px 5px 20px rgba(0,0,0,0.2),
 	2px 3px 3px rgba(0,0,0,0.25);
@@ -249,9 +250,9 @@ img {
 		margin-bottom: 20px;
 	}
 
-	.body-content .col-md-6 {
-		padding-top: 70px;
-		margin-top: 70px;
+	.body-content .container > .row {
+		margin-top: 75px;
+		padding-top: 75px;
 	}
 
 	.body-content > .container > .row:first-of-type {
@@ -261,20 +262,13 @@ img {
 	.art-image {
 		position: absolute;
 		top: 0;
-		right: 15px;
+		right: 20px;
+		margin-bottom: 0;
 	}
 
 	.art-box {
 		margin: 0;
 		width: 260px;
-	}
-
-	.art-box.vertical {
-		min-height: 540px;
-	}
-
-	.art-box.horizontal {
-		min-height: 410px;
 	}
 
 	.art-box.horizontal .art-image {
@@ -306,10 +300,6 @@ img {
 	.logo {
 		margin-top: 15px;
     	margin-bottom: 20px;
-	}
-
-	.art-image {
-		right: 20px;
 	}
 	
 }
@@ -350,6 +340,10 @@ img {
 		width: 506px;
 	}
 
+	.art-image {
+		right: 15px;
+	}
+
 }
 
 @media (min-width: 1200px) {
@@ -384,10 +378,6 @@ img {
 
 	.art-box.horizontal .art-image {
 		width: 523px;
-	}
-
-	.body-content .container > .row {
-		padding-top: 70px;
 	}
 
 
