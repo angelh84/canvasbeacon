@@ -213,6 +213,8 @@ img {
 
 .mobile-content-row {
 	border-bottom: 10px solid #e0dfdd;
+	padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
