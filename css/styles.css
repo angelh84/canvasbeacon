@@ -7,7 +7,7 @@ html {
 
 header {
 	background-color: #f9f1e8;
-	border-bottom: 7px solid #d5cabb;
+	border-bottom: 10px solid #e2e2e2;
 }
 
 header p {
@@ -15,7 +15,7 @@ header p {
 }
 
 header p span {
-	color: #ec4700;
+	font-style: italic;
 }
 
 h1 {
@@ -59,7 +59,6 @@ img {
 }
 
 .world-map {
-	border: 5px solid #e0d0bf;
 	margin: 0 auto 25px;
 }
 
@@ -231,9 +230,10 @@ img {
 @media (min-width: 768px) {
 
 	header {
-		background: #d5cabb url('/img/kitchen-with-art.jpg') no-repeat center 0;
+		background: #ebeae8 url('/img/kitchen-with-art.jpg') no-repeat center 0;
 		background-size: 1080px;
-    	height: 417px;
+    	height: 415px;
+    	border-bottom: 0;
 	}
 
 	header p {
@@ -307,7 +307,7 @@ img {
 @media (min-width: 992px) {
 
 	header {
-		height: 527px;
+		height: 525px;
 		background-size: 1370px;
 	}
 
@@ -349,7 +349,7 @@ img {
 @media (min-width: 1200px) {
 
 	header {
-		height: 655px;
+		height: 660px;
 		background-size: auto;
 	}
 
