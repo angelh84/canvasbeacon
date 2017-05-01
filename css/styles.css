@@ -6,8 +6,8 @@ html {
 }
 
 header {
-	background-color: #f9f1e8;
-	border-bottom: 10px solid #e2e2e2;
+	background: #fdf8f4 url('/img/kitchen-with-breakfast-art.jpg') no-repeat center bottom / contain;
+	border-bottom: 10px solid #f6f1ed;
 }
 
 header p {
@@ -19,10 +19,10 @@ header p span {
 }
 
 h1 {
-	font: 300 24px "Roboto Slab", serif;
+	font: 300 29px "Roboto Slab", serif;
 	color: #5b4b3b;
 	letter-spacing: -2px;
-	margin-bottom: 25px;
+	margin-bottom: 85%;
 }
 
 h2 {
@@ -198,15 +198,34 @@ img {
     margin-right: 5px;
 }
 
+.mobile-content-box {
+	font-size: 18px;
+    padding: 30px 20px;
+}
+
+.mobile-content-box p:last-child {
+	margin: 0;
+}
+
+.mobile-content-box span {
+	font-style: italic;
+}
+
+.mobile-content-row {
+	border-bottom: 10px solid #e0dfdd;
+}
+
 
 /* ========== MEDIA QUERIES ============ */
 
 
-@media (min-width: 375px) {
+@media (min-width: 350px) {
 
-	h1 {
-		font-size: 28px;
-	}
+	
+
+}
+
+@media (min-width: 375px) {
 
 	.cta-button {
 		width: 150px;
@@ -223,6 +242,21 @@ img {
 	.art-box {
 		margin: 0 auto;
 		width: 425px;
+	}
+
+	h1 {
+		width: 425px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+@media (min-width: 600px) {
+
+	.mobile-content-box {
+		margin: 0 auto;
+		width: 500px;
 	}
 
 }
@@ -246,6 +280,7 @@ img {
 	}
 
 	h1 {
+		width: auto;
 		font-size: 26px;
 		margin-bottom: 20px;
 	}
@@ -318,7 +353,7 @@ img {
 
 	header p {
 		font-size: 16px;
-		padding-right: 15%;
+		padding-right: 25%;
 	}
 
 	p {
@@ -355,7 +390,7 @@ img {
 
 	header p {
 		font-size: 18px;
-		padding-right: 20%;
+		padding-right: 30%;
 	}
 
 	.logo::before {
