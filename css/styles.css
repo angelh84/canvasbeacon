@@ -6,7 +6,7 @@ html {
 }
 
 header {
-	background: #fdf8f4 url('/img/kitchen-with-breakfast-art.jpg') no-repeat right -22px bottom 0 / 144%;
+	background: #fdf8f4 url('/img/kitchen-with-breakfast-art.jpg') no-repeat right 0 bottom 0 / 132%;
 	border-bottom: 10px solid #f6f1ed;
 }
 
@@ -22,7 +22,7 @@ h1 {
 	font: 300 24px "Roboto Slab", serif;
 	color: #5b4b3b;
 	letter-spacing: -2px;
-	margin-bottom: 125%;
+	margin-bottom: 115%;
 }
 
 h2 {
