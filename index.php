@@ -68,7 +68,7 @@
               </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
-                    <p class="price"><sup>$</sup>71.20</p>
+                    <p class="price"><sup>$</sup>89.00</p>
                     <p class="hearts"><span>489</span></p>
                   </div>
                   <a href="https://society6.com/product/alices-adventures-in-wonderland-t8z_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
@@ -95,8 +95,8 @@
               </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
-                    <p class="price"><sup>$</sup>68.00</p>
-                    <p class="hearts"><span>1071</span></p>
+                    <p class="price"><sup>$</sup>85.00</p>
+                    <p class="hearts"><span>1073</span></p>
                   </div>
                   <a href="https://society6.com/product/pop-art-feathers_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
                   <a href="https://society6.com/canvas/illustration?curator=angelh84" class="category">illustration</a>
@@ -122,8 +122,8 @@
               </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
-                    <p class="price"><sup>$</sup>68.00</p>
-                    <p class="hearts"><span>2240</span></p>
+                    <p class="price"><sup>$</sup>85.00</p>
+                    <p class="hearts"><span>2247</span></p>
                   </div>
                   <a href="https://society6.com/product/a-grand-avenue_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
                   <a href="https://society6.com/canvas/illustration?curator=angelh84" class="category">illustration</a>
@@ -149,8 +149,8 @@
               </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
-                    <p class="price"><sup>$</sup>76.80</p>
-                    <p class="hearts"><span>4970</span></p>
+                    <p class="price"><sup>$</sup>96.00</p>
+                    <p class="hearts"><span>4980</span></p>
                   </div>
                   <a href="https://society6.com/product/dissolve-me-gg6_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
                   <a href="#" class="category">black-white</a>
@@ -176,8 +176,8 @@
               </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
-                    <p class="price"><sup>$</sup>68.00</p>
-                    <p class="hearts"><span>326</span></p>
+                    <p class="price"><sup>$</sup>85.00</p>
+                    <p class="hearts"><span>327</span></p>
                   </div>
                   <a href="https://society6.com/product/the-parking-ticket_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
                   <a href="https://society6.com/canvas/movies-tv?curator=angelh84" class="category">movies-tv</a>
@@ -204,7 +204,7 @@
               </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
-                    <p class="price"><sup>$</sup>71.20</p>
+                    <p class="price"><sup>$</sup>89.00</p>
                     <p class="hearts"><span>1040</span></p>
                   </div>
                   <a href="https://society6.com/product/zebra-tvf_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
@@ -231,8 +231,8 @@
               </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
-                    <p class="price"><sup>$</sup>68.00</p>
-                    <p class="hearts"><span>611</span></p>
+                    <p class="price"><sup>$</sup>85.00</p>
+                    <p class="hearts"><span>612</span></p>
                   </div>
                   <a href="https://society6.com/product/rhythm-of-grief_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
                   <a href="https://society6.com/canvas/illustration?curator=angelh84" class="category">illustration</a>
@@ -258,7 +258,7 @@
               </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
-                    <p class="price"><sup>$</sup>68.00</p>
+                    <p class="price"><sup>$</sup>85.00</p>
                     <p class="hearts"><span>1016</span></p>
                   </div>
                   <a href="https://society6.com/product/achilles-wmi_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
@@ -285,8 +285,8 @@
               </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
-                    <p class="price"><sup>$</sup>68.00</p>
-                    <p class="hearts"><span>1703</span></p>
+                    <p class="price"><sup>$</sup>85.00</p>
+                    <p class="hearts"><span>1706</span></p>
                   </div>
                   <a href="https://society6.com/product/without-words-ity_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
                   <a href="https://society6.com/canvas/animals?curator=angelh84" class="category">animals</a>
@@ -313,8 +313,8 @@
               </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
-                    <p class="price"><sup>$</sup>68.00</p>
-                    <p class="hearts"><span>3275</span></p>
+                    <p class="price"><sup>$</sup>85.00</p>
+                    <p class="hearts"><span>3278</span></p>
                   </div>
                   <a href="https://society6.com/product/urban-sunset-awn_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
                   <a href="https://society6.com/canvas/abstract?curator=angelh84" class="category">abstract</a>
