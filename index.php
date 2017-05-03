@@ -387,7 +387,7 @@
     fbq('track', 'PageView');
     $('a').on('click', function(e) {
       e.preventDefault();
-      var target = $(this).parents('.art-box').find('h2').text().replace('/ /g', '');
+      var target = $(this).parents('.art-box').find('h2').text().replace(/ /g, '').replace(/'/g, '');
       console.log(target);
       fbq('trackCustom', 'canvasClickThrough', {custom_param: target});
     });
