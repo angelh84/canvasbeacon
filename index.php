@@ -388,6 +388,7 @@
     $('a').on('click', function(e) {
       e.preventDefault();
       var target = $(this).parents('.art-box').find('h2').text();
+      console.log(target);
       fbq('trackCustom', 'canvasClickThrough', {custom_param: target});
     });
 
