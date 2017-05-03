@@ -71,7 +71,7 @@
                     <p class="price"><sup>$</sup>89.00</p>
                     <p class="hearts"><span>489</span></p>
                   </div>
-                  <a href="https://society6.com/product/alices-adventures-in-wonderland-t8z_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
+                  <a href="https://society6.com/product/alices-adventures-in-wonderland-t8z_stretched-canvas?curator=angelh84" class="cta-button" data-id="1">View Profile</a>
                   <a href="https://society6.com/canvas/surrealism?curator=angelh84" class="category">surrealism</a>
                   <a href="https://society6.com/canvas/abstract?curator=angelh84" class="category">abstract</a>
                   <a href="https://society6.com/canvas/wonderland?curator=angelh84" class="category">wonderland</a>
@@ -373,23 +373,21 @@
       });
     </script>
 
-    <!-- Facebook Pixel Code -->
+<!-- Facebook Pixel Code -->
 <script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window,document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
- fbq('init', '297589584004773'); 
-fbq('track', 'PageView');
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window,document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '297589584004773'); 
+    fbq('track', 'PageView');
 </script>
 <noscript>
- <img height="1" width="1" 
-src="https://www.facebook.com/tr?id=297589584004773&ev=PageView
-&noscript=1"/>
+  <img height="1" width="1" src="https://www.facebook.com/tr?id=297589584004773&ev=PageView&noscript=1"/>
 </noscript>
 <!-- End Facebook Pixel Code -->
 
@@ -416,6 +414,21 @@ src="https://www.facebook.com/tr?id=297589584004773&ev=PageView
         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
         a.appendChild(r);
     })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<script>
+  var clickThrough = function (target) {
+    console.log(target);
+    // Custom event (can be used for audience building and custom conversions)
+    fbq('canvas', 'clickThrough', {custom_param: target});
+  };
+
+  $('a').on('click', function(e) {
+      e.preventDefault();
+      var target = $(this).parents('.art-box').find('h2').text();
+      clickThrough(target);
+  });
+
 </script>
 
   </body>
