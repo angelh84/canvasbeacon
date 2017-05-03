@@ -385,6 +385,12 @@
   'https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', '297589584004773'); 
     fbq('track', 'PageView');
+    $('a').on('click', function(e) {
+      e.preventDefault();
+      var target = $(this).parents('.art-box').find('h2').text();
+      fbq('canvas', 'clickThrough', {custom_param: target});
+    });
+
 </script>
 <noscript>
   <img height="1" width="1" src="https://www.facebook.com/tr?id=297589584004773&ev=PageView&noscript=1"/>
@@ -417,7 +423,7 @@
 </script>
 
 <script>
-  var clickThrough = function (target) {
+  /*var clickThrough = function (target) {
     console.log(target);
     // Custom event (can be used for audience building and custom conversions)
     fbq('canvas', 'clickThrough', {custom_param: target});
@@ -428,7 +434,7 @@
       var target = $(this).parents('.art-box').find('h2').text();
       clickThrough(target);
   });
-
+*/
 </script>
 
   </body>
