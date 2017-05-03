@@ -385,10 +385,8 @@
   'https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', '297589584004773'); 
     fbq('track', 'PageView');
-    $('a').on('click', function(e) {
-      e.preventDefault();
+    $('a').on('click', function() {
       var target = $(this).parents('.art-box').find('h2').text().replace(/ /g, '').replace(/'/g, '');
-      console.log(target);
       fbq('trackCustom', 'canvasClickThrough', {custom_param: target});
     });
 
