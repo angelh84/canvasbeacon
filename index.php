@@ -383,7 +383,13 @@ document,'script','https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '297589584004773'); // Insert your pixel ID here.
 fbq('track', 'PageView');
 $('a').on('click', function() {
-  fbq('track', 'Lead');  
+  var target = $(this)
+    .parents('.art-box')
+    .find('h2')
+    .text()
+    .replace(/ /g, '')
+    .replace(/'/g, '');
+  fbq('track', 'Lead', { content_name : target });  
 });
 </script>
 <noscript><img height="1" width="1" style="display:none"
