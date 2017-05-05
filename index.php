@@ -40,16 +40,19 @@
       </div>
     </header>
 
-    <div class="container">
-      <div class="row visible-xs-block mobile-content-row">
+    <div class="container visible-xs-block">
+      <div class="row mobile-content-row">
         <div class="col-sm-12">
           <div class="mobile-content-box">
+            <img class="editors-choice visible-xs-block" src="/img/editors-choice-seal.png" alt="Editors' Choice 2017">
             <p>We tirelessly searched the internet for the best assortment of art and our quest revealed one of the most original collection of canvas art and prints that we have ever seen.</p>
             <p>To help you fill those empty walls, our editors have hand picked the <span>top 10 most exceptional art pieces</span> below.</p>
           </div>
         </div>
       </div>
     </div>
+
+    <button type="button" class="promo-button">2 Days Left For Our 20% OFF ALL PRICES<br> + FREE SHIPPING! Click Here to Activate.</button>
 
     <section class="body-content clearfix">
       <div class="container">
@@ -69,6 +72,7 @@
               <div class="cta-box">
                   <div class="price-like-box clearfix">
                     <p class="price"><sup>$</sup>89.00</p>
+                    <p class="promo-price"></p>
                     <p class="hearts"><span>489</span></p>
                   </div>
                   <a href="https://society6.com/product/alices-adventures-in-wonderland-t8z_stretched-canvas?curator=angelh84" class="cta-button" data-id="1">View Profile</a>
@@ -96,6 +100,7 @@
               <div class="cta-box">
                   <div class="price-like-box clearfix">
                     <p class="price"><sup>$</sup>85.00</p>
+                    <p class="promo-price"></p>
                     <p class="hearts"><span>1073</span></p>
                   </div>
                   <a href="https://society6.com/product/pop-art-feathers_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>

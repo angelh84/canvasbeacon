@@ -44,6 +44,11 @@ img {
 	max-width: 100%;
 }
 
+button {
+	border: 0;
+	background-color: #fff;
+}
+
 .logo {
 	font-family: "Roboto Slab", serif;
 	margin-top: 15px;
@@ -162,19 +167,43 @@ img {
 	margin-right: 10px;
 }
 
-.price {
-	float: left;
-	width: 51%;
-	border-right: 1px solid #ccc9c6;
+.price,
+.promo-price {
 	color: #807c78;
 	font-weight: 300;
 	margin: 0;
 	font-size: 14px;
 }
 
-.price sup {
+.price sup,
+.promo-price sup {
 	top: -.4em;
     padding-right: 2px;
+}
+
+
+.price {
+	float: left;
+	width: 50%;
+}
+
+.promo-active .price {
+	text-decoration: line-through;
+	font-size: 12px;
+	float: none;
+	width: 30%;
+}
+
+.promo-active .promo-price {
+	display: block;
+	width: 50%;
+	float: left;
+	color: #ec4700;
+    font-weight: bold;
+}
+
+.promo-price {
+	display: none;
 }
 
 .hearts {
@@ -182,9 +211,10 @@ img {
 	font-weight: bold;
 	color: #454241;
 	float: right;
-	width: 49%;
+	width: 50%;
 	text-align: right;
 	margin: 0;
+	border-left: 1px solid #ccc9c6;
 }
 
 .hearts span::before {
@@ -217,6 +247,26 @@ img {
     padding-bottom: 10px;
 }
 
+.promo-button {
+	display: none;
+	position: fixed;
+	z-index: 10;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #00bff3;
+	color: #fff;
+	padding: 8px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.3em;
+}
+
+.editors-choice {
+	width: 170px;
+	margin: 0 auto 20px;
+}
+
 
 /* ========== MEDIA QUERIES ============ */
 
@@ -241,6 +291,12 @@ img {
 
 }
 
+@media (min-width: 440px) {
+	.promo-button br {
+		display: none;
+	}
+}
+
 @media (min-width: 470px) {
 
 	.art-box {
@@ -253,6 +309,12 @@ img {
 		font-size: 34px;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	.editors-choice {
+		float: left;
+		margin-right: 20px;
+    	margin-bottom: 25px;
 	}
 
 }
@@ -323,13 +385,18 @@ img {
 		padding-left: 45px;
 	}
 
-	.price {
+	.price,
+	.promo-price {
 		font-size: 16px;
 	}
 
 	.price-like-box {
 		float: none;
 		width: 149px;
+	}
+
+	.promo-button {
+		font-size: 16px;
 	}
 
 
