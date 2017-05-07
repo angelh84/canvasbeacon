@@ -68,21 +68,23 @@ button {
 }
 
 .position {
+	width: 18%;
 	float: left;
-	margin-right: 20px;
 	margin-bottom: 0;
-	margin-left: -45px;
 	font: bold 55px / 0.8em "Roboto Slab";
 	color: #ec4700;
+	text-align: right;
 }
 
 .title-container {
-	padding-left: 42px;
 	margin-bottom: 20px;
 }
 
 .title-box {
+	width: 82%;
 	float: left;
+	padding-left: 20px;
+	padding-right: 10px;
 }
 
 .body-content {
@@ -370,7 +372,7 @@ button {
 
 	.art-box {
 		margin: 0;
-		width: 260px;
+		width: 286px;
 	}
 
 	.art-box.horizontal .art-image {
@@ -382,7 +384,7 @@ button {
 	}
 
 	.cta-box {
-		padding-left: 45px;
+		padding-left: 70px;
 	}
 
 	.price,
@@ -451,6 +453,10 @@ button {
 		right: 15px;
 	}
 
+	.art-box {
+		width: 271px;
+	}
+
 }
 
 @media (min-width: 1200px) {
@@ -480,7 +486,11 @@ button {
 	}
 
 	.art-box {
-		width: 340px;
+		width: 420px;
+	}
+
+	.cta-box {
+		padding-left: 95px;
 	}
 
 	.art-box.horizontal .art-image {
