@@ -56,8 +56,7 @@
       </div>
     </div>
 
-    <button type="button" class="promo-button">2 Days Left For Our 20% OFF ALL PRICES<br> + FREE SHIPPING! Click Here to Activate.</button>
-
+<!-- ART -->
     <section class="body-content clearfix">
       <div class="container">
         <div class="row">
@@ -77,7 +76,7 @@
                   <div class="price-like-box clearfix">
                     <p class="price"><sup>$</sup>89.00</p>
                     <p class="promo-price"></p>
-                    <p class="hearts"><span>489</span></p>
+                    <p class="hearts"><span>493</span></p>
                   </div>
                   <a href="https://society6.com/product/alices-adventures-in-wonderland-t8z_stretched-canvas?curator=angelh84" class="cta-button" data-id="1">View Profile</a>
                   <a href="https://society6.com/canvas/surrealism?curator=angelh84" class="category">surrealism</a>
@@ -105,7 +104,7 @@
                   <div class="price-like-box clearfix">
                     <p class="price"><sup>$</sup>85.00</p>
                     <p class="promo-price"></p>
-                    <p class="hearts"><span>1073</span></p>
+                    <p class="hearts"><span>1084</span></p>
                   </div>
                   <a href="https://society6.com/product/pop-art-feathers_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
                   <a href="https://society6.com/canvas/illustration?curator=angelh84" class="category">illustration</a>
@@ -132,7 +131,8 @@
               <div class="cta-box">
                   <div class="price-like-box clearfix">
                     <p class="price"><sup>$</sup>85.00</p>
-                    <p class="hearts"><span>2247</span></p>
+                    <p class="promo-price"></p>
+                    <p class="hearts"><span>2262</span></p>
                   </div>
                   <a href="https://society6.com/product/a-grand-avenue_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
                   <a href="https://society6.com/canvas/illustration?curator=angelh84" class="category">illustration</a>
@@ -159,7 +159,8 @@
               <div class="cta-box">
                   <div class="price-like-box clearfix">
                     <p class="price"><sup>$</sup>96.00</p>
-                    <p class="hearts"><span>4980</span></p>
+                    <p class="promo-price"></p>
+                    <p class="hearts"><span>5032</span></p>
                   </div>
                   <a href="https://society6.com/product/dissolve-me-gg6_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
                   <a href="#" class="category">black-white</a>
@@ -186,7 +187,8 @@
               <div class="cta-box">
                   <div class="price-like-box clearfix">
                     <p class="price"><sup>$</sup>85.00</p>
-                    <p class="hearts"><span>327</span></p>
+                    <p class="promo-price"></p>
+                    <p class="hearts"><span>330</span></p>
                   </div>
                   <a href="https://society6.com/product/the-parking-ticket_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
                   <a href="https://society6.com/canvas/movies-tv?curator=angelh84" class="category">movies-tv</a>
@@ -214,7 +216,8 @@
               <div class="cta-box">
                   <div class="price-like-box clearfix">
                     <p class="price"><sup>$</sup>89.00</p>
-                    <p class="hearts"><span>1040</span></p>
+                    <p class="promo-price"></p>
+                    <p class="hearts"><span>1045</span></p>
                   </div>
                   <a href="https://society6.com/product/zebra-tvf_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
                   <a href="https://society6.com/canvas/graphic-design?curator=angelh84" class="category">graphic-design</a>
@@ -241,6 +244,7 @@
               <div class="cta-box">
                   <div class="price-like-box clearfix">
                     <p class="price"><sup>$</sup>85.00</p>
+                    <p class="promo-price"></p>
                     <p class="hearts"><span>612</span></p>
                   </div>
                   <a href="https://society6.com/product/rhythm-of-grief_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
@@ -268,6 +272,7 @@
               <div class="cta-box">
                   <div class="price-like-box clearfix">
                     <p class="price"><sup>$</sup>85.00</p>
+                    <p class="promo-price"></p>
                     <p class="hearts"><span>1016</span></p>
                   </div>
                   <a href="https://society6.com/product/achilles-wmi_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
@@ -295,6 +300,7 @@
               <div class="cta-box">
                   <div class="price-like-box clearfix">
                     <p class="price"><sup>$</sup>85.00</p>
+                    <p class="promo-price"></p>
                     <p class="hearts"><span>1706</span></p>
                   </div>
                   <a href="https://society6.com/product/without-words-ity_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
@@ -323,7 +329,8 @@
               <div class="cta-box">
                   <div class="price-like-box clearfix">
                     <p class="price"><sup>$</sup>85.00</p>
-                    <p class="hearts"><span>3278</span></p>
+                    <p class="promo-price"></p>
+                    <p class="hearts"><span>3295</span></p>
                   </div>
                   <a href="https://society6.com/product/urban-sunset-awn_stretched-canvas?curator=angelh84" class="cta-button">View Profile</a>
                   <a href="https://society6.com/canvas/abstract?curator=angelh84" class="category">abstract</a>
@@ -338,6 +345,8 @@
       </div> <!-- .container -->
     </section>
 
+    <div class="promo-message"><p>20% OFF + FREE WORLDWIDE SHIPPING ON EVERYTHING TODAY!</p></div>
+
     <!-- Javascript -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -346,6 +355,38 @@
     </script>
 
     <script>
+      // Set Art content box height on load and resize
+      var setHeight = function (reference, target) {
+        if ( $(window).width() > 767 ) {
+          $(reference).each(function() {
+            $(this).parents(target).height( $(this).height() );
+          });
+        }
+      };
+
+      // Discount Function
+      var discount = function(priceClass, percent) {
+        var retailInteger = parseInt( $(priceClass).text().replace('$', '') );
+        var discountInteger = retailInteger * (percent / 100);
+        return retailInteger - discountInteger;
+      };
+
+      // Add Promo Price
+      $('.price').each(function() {
+        var promoPrice = discount(this, 20);
+        var $promoMessage = $('.promo-message');
+
+        $(this).siblings('.promo-price').html( '<sup>$</sup>' + promoPrice.toFixed(2) );
+        $(this).parents('.cta-box').addClass('promo-active');
+        setTimeout(function() {
+          $promoMessage.slideDown('slow');
+        }, 3000);
+        setTimeout(function() {
+          $promoMessage.slideUp('slow');
+        }, 15000);
+      });
+
+      // Unique Resize Function
       var resizeEvent = (function () {
         var timers = {};
         return function (callback, ms, uniqueId) {
@@ -359,14 +400,7 @@
         };
       })();
 
-      var setHeight = function (reference, target) {
-        if ( $(window).width() > 767 ) {
-          $(reference).each(function() {
-            $(this).parents(target).height( $(this).height() );
-          });
-        }
-      };
-
+      // Window Resize Function
       $(window).resize(function () {
         resizeEvent(function(){
           if ( $(window).width() < 768 ) {
@@ -377,10 +411,12 @@
         }, 250, "art-box-resize-event");
       });
 
+      // Window on load function
       $(window).on('load', function () {
         setHeight('.art-image', '.art-box');
       });
     </script>
+
 
 <!-- Facebook Pixel Code -->
 <script>
@@ -426,13 +462,14 @@ src="https://www.facebook.com/tr?id=297589584004773&ev=PageView&noscript=1"
 
 
   <!-- FB Lead Pixel -->
-  <script>
-    $('a').on('click', function() {
-      var contentName = $(this).parents('.art-box').find('h2').text();
-      var contentCategory = $(this).find('img').length ? $(this).attr('class') : $(this).text();
-      fbq('track', 'Lead', { content_name : contentName, content_category : contentCategory });
-    });
-  </script>
+<script>
+  $('a').on('click', function() {
+    var contentName = $(this).parents('.art-box').find('h2').text();
+    var contentCategory = $(this).find('img').length ? $(this).attr('class') : $(this).text();
+    fbq('track', 'Lead', { content_name : contentName, content_category : contentCategory });
+  });
+</script>
+
 
   </body>
 </html>

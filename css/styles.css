@@ -248,7 +248,7 @@ button {
     padding-bottom: 10px;
 }
 
-.promo-button {
+.promo-message {
 	display: none;
 	position: fixed;
 	z-index: 10;
@@ -263,11 +263,15 @@ button {
 	line-height: 1.3em;
 }
 
+.promo-message p {
+	margin: 0;
+}
+
 .editors-choice {
 	width: 170px;
 	margin: 0 auto 20px;
 }
-
+  
 
 /* ========== MEDIA QUERIES ============ */
 
@@ -293,7 +297,7 @@ button {
 }
 
 @media (min-width: 440px) {
-	.promo-button br {
+	.promo-message br {
 		display: none;
 	}
 }
@@ -409,7 +413,7 @@ button {
 		width: 149px;
 	}
 
-	.promo-button {
+	.promo-message {
 		font-size: 16px;
 	}
 
