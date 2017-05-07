@@ -7,6 +7,10 @@
     
     <title>Best Selection of Art Canvas and Prints</title>
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,700|Roboto:300,400,700" rel="stylesheet">
 
@@ -387,15 +391,6 @@ t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
 document,'script','https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '297589584004773'); // Insert your pixel ID here.
 fbq('track', 'PageView');
-$('a').on('click', function() {
-  var target = $(this)
-    .parents('.art-box')
-    .find('h2')
-    .text()
-    .replace(/ /g, '')
-    .replace(/'/g, '');
-  fbq('track', 'Lead', { content_name : target });  
-});
 </script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=297589584004773&ev=PageView&noscript=1"
@@ -429,6 +424,19 @@ src="https://www.facebook.com/tr?id=297589584004773&ev=PageView&noscript=1"
     })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
 
+
+  <script>
+    // facebook Lead Pixel 
+    $('a').on('click', function() {
+      var target = $(this)
+        .parents('.art-box')
+        .find('h2')
+        .text()
+        .replace(/ /g, '')
+        .replace(/'/g, '');
+      fbq('track', 'Lead', { content_name : target });  
+    });
+  </script>
 
   </body>
 </html>
