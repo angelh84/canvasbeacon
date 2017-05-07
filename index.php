@@ -425,16 +425,12 @@ src="https://www.facebook.com/tr?id=297589584004773&ev=PageView&noscript=1"
 </script>
 
 
+  <!-- FB Lead Pixel -->
   <script>
-    // facebook Lead Pixel 
     $('a').on('click', function() {
-      var target = $(this)
-        .parents('.art-box')
-        .find('h2')
-        .text()
-        .replace(/ /g, '')
-        .replace(/'/g, '');
-      fbq('track', 'Lead', { content_name : target });  
+      var contentName = $(this).parents('.art-box').find('h2').text();
+      var contentCategory = $(this).find('img').length ? $(this).attr('class') : $(this).text();
+      fbq('track', 'Lead', { content_name : contentName, content_category : contentCategory });
     });
   </script>
 
