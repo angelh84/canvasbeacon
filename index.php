@@ -402,10 +402,7 @@ src="https://www.facebook.com/tr?id=297589584004773&ev=PageView&noscript=1"
 /></noscript>
 <!-- DO NOT MODIFY -->
 <!-- End Facebook Pixel Code -->
-<noscript>
-  <img height="1" width="1" src="https://www.facebook.com/tr?id=297589584004773&ev=PageView&noscript=1"/>
-</noscript>
-<!-- End Facebook Pixel Code -->
+
 
 <!-- Google Analytics -->
 <script>
@@ -432,20 +429,6 @@ src="https://www.facebook.com/tr?id=297589584004773&ev=PageView&noscript=1"
     })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
 
-<script>
-  /*var clickThrough = function (target) {
-    console.log(target);
-    // Custom event (can be used for audience building and custom conversions)
-    fbq('canvas', 'clickThrough', {custom_param: target});
-  };
-
-  $('a').on('click', function(e) {
-      e.preventDefault();
-      var target = $(this).parents('.art-box').find('h2').text();
-      clickThrough(target);
-  });
-*/
-</script>
 
   </body>
 </html>
