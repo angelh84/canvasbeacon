@@ -357,7 +357,7 @@
     <script>
       // Set Art content box height on load and resize
       var setHeight = function (reference, target) {
-        if ( $(window).width() > 767 ) {
+        if ( $(window).outerWidth() > 767 ) {
           $(reference).each(function() {
             $(this).parents(target).height( $(this).height() );
           });
@@ -403,7 +403,7 @@
       // Window Resize Function
       $(window).resize(function () {
         resizeEvent(function(){
-          if ( $(window).width() < 768 ) {
+          if ( $(window).outerWidth() < 768 ) {
             $('.art-box').removeAttr('style');
           } else {
             setHeight('.art-image', '.art-box');  
