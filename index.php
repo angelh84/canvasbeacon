@@ -446,6 +446,14 @@ src="https://www.facebook.com/tr?id=297589584004773&ev=PageView&noscript=1"
   ga('create', 'UA-98201061-1', 'auto');
   ga('send', 'pageview');
 
+  function handleOutboundLinkClicks(outboundElm, outboundLabel) {
+    ga('send', 'event', {
+      eventCategory: outboundElm,
+      eventAction: 'click',
+      eventLabel: outboundLabel,
+      transport: 'beacon'
+    });
+  }
 </script>
 
 <!-- Hotjar Tracking Code for www.canvasbeacon.com -->
@@ -463,10 +471,11 @@ src="https://www.facebook.com/tr?id=297589584004773&ev=PageView&noscript=1"
 
   <!-- FB Lead Pixel -->
 <script>
-  $('a').on('click', function() {
+  $('a').on('click', function(event) {
     var contentName = $(this).parents('.art-box').find('h2').text();
     var contentCategory = $(this).find('img').length ? $(this).attr('class') : $(this).text();
     fbq('track', 'Lead', { content_name : contentName, content_category : contentCategory });
+    handleOutboundLinkClicks(contentName, contentCategory);
   });
 </script>
 
