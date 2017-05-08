@@ -150,7 +150,7 @@
                 <p class="position">4</p>
                 <div class="title-box">
                   <h2>Dissolve Me</h2>
-                  <a class="author">by Daniel Taylor</a>  
+                  <a href="https://society6.com/taylordaniel?curator=angelh84" class="author">by Daniel Taylor</a>  
                 </div>  
               </div>
               <a href="https://society6.com/product/dissolve-me-gg6_stretched-canvas?curator=angelh84" class="art-image">
@@ -207,7 +207,7 @@
                 <p class="position">6</p>
                 <div class="title-box">
                   <h2>Zebra</h2>
-                  <a class="author">by Jazzberry Blue</a>  
+                  <a href="https://society6.com/jazzberryblue?curator=angelh84" class="author">by Jazzberry Blue</a>  
                 </div>  
               </div>
               <a href="https://society6.com/product/zebra-tvf_stretched-canvas?curator=angelh84" class="art-image">
