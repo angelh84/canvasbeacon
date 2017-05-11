@@ -372,19 +372,25 @@
       };
 
       // Add Promo Price
-      $('.price').each(function() {
-        var promoPrice = discount(this, 20);
-        var $promoMessage = $('.promo-message');
+      (function() {
+        var discountFlag = false;
+        if (discountFlag){
+          $('.price').each(function() {
+            var promoPrice = discount(this, 20);
+            var $promoMessage = $('.promo-message');
 
-        $(this).siblings('.promo-price').html( '<sup>$</sup>' + promoPrice.toFixed(2) );
-        $(this).parents('.cta-box').addClass('promo-active');
-        setTimeout(function() {
-          $promoMessage.slideDown('slow');
-        }, 3000);
-        setTimeout(function() {
-          $promoMessage.slideUp('slow');
-        }, 15000);
-      });
+            $(this).siblings('.promo-price').html( '<sup>$</sup>' + promoPrice.toFixed(2) );
+            $(this).parents('.cta-box').addClass('promo-active');
+            setTimeout(function() {
+              $promoMessage.slideDown('slow');
+            }, 3000);
+            setTimeout(function() {
+              $promoMessage.slideUp('slow');
+            }, 15000);
+          });  
+        }
+      })();
+      
 
       // Unique Resize Function
       var resizeEvent = (function () {
