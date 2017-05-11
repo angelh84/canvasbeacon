@@ -70,7 +70,7 @@
                 </div>  
               </div>
               <a href="https://society6.com/product/alices-adventures-in-wonderland-t8z_stretched-canvas?curator=angelh84" class="art-image" >
-                <img src="/img/alices-adventures-in-wonderland.jpg" alt="Alice's Adventures In Wonderland">
+                <img class="lazy" src="/img/alices-adventures-in-wonderland.jpg" alt="Alice's Adventures In Wonderland">
               </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
@@ -98,7 +98,7 @@
                 </div>  
               </div>
               <a href="https://society6.com/product/pop-art-feathers_stretched-canvas?curator=angelh84" class="art-image">
-                <img src="/img/pop-art-feathers.jpg" alt="Feathers">
+                <img class="lazy" src="/img/pop-art-feathers.jpg" alt="Feathers">
               </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
@@ -126,7 +126,7 @@
                 </div>  
               </div>
               <a href="https://society6.com/product/a-grand-avenue_stretched-canvas?curator=angelh84" class="art-image">
-                <img src="/img/grand-avenue.jpg" alt="Grand Avenue">
+                <img class="lazy" src="/img/grand-avenue.jpg" alt="Grand Avenue">
               </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
@@ -154,7 +154,7 @@
                 </div>  
               </div>
               <a href="https://society6.com/product/dissolve-me-gg6_stretched-canvas?curator=angelh84" class="art-image">
-                <img src="/img/dissolve-me.jpg" alt="Dissolve Me">
+                <img class="lazy" src="/img/dissolve-me.jpg" alt="Dissolve Me">
               </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
@@ -182,7 +182,7 @@
                 </div>  
               </div>
               <a href="https://society6.com/product/the-parking-ticket_stretched-canvas?curator=angelh84" class="art-image">
-                <img src="/img/the-parking-ticket.jpg" alt="The Parking Ticket">
+                <img class="lazy" src="/img/the-parking-ticket.jpg" alt="The Parking Ticket">
               </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
@@ -211,7 +211,7 @@
                 </div>  
               </div>
               <a href="https://society6.com/product/zebra-tvf_stretched-canvas?curator=angelh84" class="art-image">
-                <img src="/img/zebra.jpg" alt="Zebra">
+                <img class="lazy" src="/img/zebra.jpg" alt="Zebra">
               </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
@@ -239,7 +239,7 @@
                 </div>  
               </div>
               <a href="https://society6.com/product/rhythm-of-grief_stretched-canvas?curator=angelh84" class="art-image">
-                <img src="/img/rhythm-of-grief.jpg" alt="Rhythm Of Grief">
+                <img class="lazy" src="/img/rhythm-of-grief.jpg" alt="Rhythm Of Grief">
               </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
@@ -267,7 +267,7 @@
                 </div>  
               </div>
               <a href="https://society6.com/product/achilles-wmi_stretched-canvas?curator=angelh84" class="art-image">
-                <img src="/img/archilles.jpg" alt="Archilles">
+                <img class="lazy" src="/img/archilles.jpg" alt="Archilles">
               </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
@@ -295,7 +295,7 @@
                 </div>  
               </div>
               <a href="https://society6.com/product/without-words-ity_stretched-canvas?curator=angelh84" class="art-image">
-                <img src="/img/without-words.jpg" alt="Without Words">
+                <img class="lazy" src="/img/without-words.jpg" alt="Without Words">
               </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
@@ -324,7 +324,7 @@
                 </div>  
               </div>
               <a href="https://society6.com/product/urban-sunset-awn_stretched-canvas?curator=angelh84" class="art-image">
-                <img src="/img/urban-sunset.jpg" alt="Urban Sunset">
+                <img class="lazy" src="/img/urban-sunset.jpg" alt="Urban Sunset">
               </a>
               <div class="cta-box">
                   <div class="price-like-box clearfix">
@@ -354,7 +354,19 @@
       crossorigin="anonymous">  
     </script>
 
+    <script src="js/jquery.lazyload.js"></script>
+
+
+
     <script>
+
+      (function() {
+        $("img.lazy").lazyload({
+          threshold : 500
+        });
+      })();
+        
+      
       // Set Art content box height on load and resize
       var setHeight = function (reference, target) {
         if ( $(window).outerWidth() > 767 ) {
