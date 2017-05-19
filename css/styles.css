@@ -86,7 +86,7 @@ button {
 	
 }
 
-.body-content {
+.body-section {
 	width: 100%;
 	background-color: #ebeae8;
 	padding-bottom: 70px;
@@ -104,13 +104,13 @@ button {
 	color: #00bff3;
 }
 
-.body-content .container > .row {
+.body-section .container > .row {
 	border-top: 10px solid #e0dfdd;
 	padding-top: 60px;
 	margin-top: 50px;
 }
 
-.body-content > .container > .row:first-of-type {
+.body-section > .container > .row:first-of-type {
 	border-top: 0;
 	padding-top: 0;
 }
@@ -154,7 +154,7 @@ button {
 	background-color: #fff;
 }
 
-.art-image {
+.art-image-box {
 	display: block;
 	margin-bottom: 27px;
 	box-shadow: 3px 5px 20px rgba(0,0,0,0.2),
@@ -218,7 +218,7 @@ button {
 	border-left: 1px solid #ccc9c6;
 }
 
-.hearts span::before {
+.hearts::before {
 	content: "";
 	background: url(/img/heart.png) no-repeat 0 0;
 	background-size: 16px;
@@ -357,16 +357,16 @@ button {
 		margin-bottom: 20px;
 	}
 
-	.body-content .container > .row {
+	.body-section .container > .row {
 		margin-top: 75px;
 		padding-top: 75px;
 	}
 
-	.body-content > .container > .row:first-of-type {
+	.body-section > .container > .row:first-of-type {
 		padding-top: 20px;
 	}
 
-	.art-image {
+	.art-image-box {
 		position: absolute;
 		top: 0;
 		right: 20px;
@@ -378,7 +378,7 @@ button {
 		width: 286px;
 	}
 
-	.art-box.horizontal .art-image {
+	.art-box.landscape .art-image-box {
 		width: 425px;
 	}
 
@@ -455,17 +455,17 @@ button {
 		margin-bottom: 40px;
 	}
 
-	.body-content .col-md-6 {
+	.body-section .col-md-6 {
 		border-top: 0;
 		padding-top: 0;
 		margin-top: 0;
 	}
 
-	.art-box.horizontal .art-image {
+	.art-box.landscape .art-image-box {
 		width: 506px;
 	}
 
-	.art-image {
+	.art-image-box {
 		right: 15px;
 	}
 
@@ -510,7 +510,7 @@ button {
 		padding-left: 95px;
 	}
 
-	.art-box.horizontal .art-image {
+	.art-box.landscape .art-image-box {
 		width: 523px;
 	}
 
