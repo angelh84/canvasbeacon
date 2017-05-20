@@ -1,5 +1,5 @@
 /**
- * art display module
+ * IIFE
  */
 var artModule = (function(){
   // s = settingsInput
