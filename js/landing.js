@@ -6,13 +6,26 @@ var artModule = (function(){
   var s;
 
 
+/**
+ * CLONE TEMPLATE
+ * @param {*} template 
+ * @param {*} key 
+ * @param {*} dataObjLength 
+ */
+  var clone = function(template, key, dataObjLength) {
+    // if statement to prevent cloaning of unecessary template at end of loop
+    if ( key + 1 < dataObjLength ) {
+      template.clone().insertAfter( template );
+    }
+  };
+
 
 /**
  * GENERATE CATEGORIES
  * @param {*} template 
  * @param {*} categoriesArr 
  */
-  var assignCategories =  function(template, categoriesArr) {
+  var generateCategories =  function(template, categoriesArr) {
     // categories loop
     $.each(categoriesArr, function(k, v) {
       var categoryElm = template.find( s.categorySelector ).last();
@@ -26,28 +39,12 @@ var artModule = (function(){
 
 
 /**
- * ASSIGN COLUMN CLASSES
- * @param {*} template 
- * @param {*} orientation 
- */
-  var assignColumnClasses = function(template, orientation) {
-    var $col = template.find( s.columnSelector );
-    if ( orientation === "landscape" ) {
-      $col.addClass( s.landscapeColumnSelectors );
-    } else {
-      $col.addClass( s.portraitColumnSelectors );
-    }
-  };
-
-
-
-/**
  * ASSIGN MAIN CONTENT
  * @param {*} key 
  * @param {*} value 
  * @param {*} template 
  */
-  var assignMainContent = function(key, value, template ) {
+  var assignMainContent = function(key, value, template) {
     template // position
       .find( s.positionSelector )
       .html( key + 1 );
@@ -78,17 +75,19 @@ var artModule = (function(){
 
 
 /**
- * CLONE TEMPLATE
+ * ASSIGN COLUMN CLASSES
  * @param {*} template 
- * @param {*} key 
- * @param {*} dataObjLength 
+ * @param {*} orientation 
  */
-  var clone = function(template, key, dataObjLength) {
-    // if statement to prevent cloaning of unecessary template at end of loop
-    if ( key + 1 < dataObjLength ) {
-      template.clone().insertAfter( template );
+  var assignColumnClasses = function(template, orientation) {
+    var $col = template.find( s.columnSelector );
+    if ( orientation === "landscape" ) {
+      $col.addClass( s.landscapeColumnSelectors );
+    } else {
+      $col.addClass( s.portraitColumnSelectors );
     }
   };
+
 
 
 
@@ -102,7 +101,7 @@ var artModule = (function(){
     var template = $( s.containerSelector ).find( s.templateSelector ).last();
     assignColumnClasses(template, value.orientation);
     assignMainContent(key, value, template);
-    assignCategories(template, value.categories);
+    generateCategories(template, value.categories);
     clone(template, key, dataObjectLength);
   };
 
@@ -133,8 +132,6 @@ var artModule = (function(){
 
 
 
-
-
 /**
  * ALL BEGINS HERE
  */
@@ -146,7 +143,6 @@ var artModule = (function(){
 
 
 /* ============================================================== */
-
 
 
 
