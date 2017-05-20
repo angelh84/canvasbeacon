@@ -1,60 +1,158 @@
-// Art Display Module
+/**
+ * art display module
+ */
 var artModule = (function(){
   // s = settingsInput
   var s;
 
-  var assign = function(key, value, dataObjectLength){
-    var i = 0;
-    var template = $( s.containerSelector ).find( s.templateSelector ).last();
 
-    // column classes added depending on art orientation
-    if ( value.orientation === "landscape" ) {
-      template.find( s.columnSelector ).addClass( s.landscapeColumnSelectors );
-    } else {
-      template.find( s.columnSelector ).addClass( s.portraitColumnSelectors );
-    }
-    template.find( s.orientationSelector ).addClass( value.orientation );
-    template.find( s.positionSelector ).html( key + 1 );
-    template.find( s.titleSelector ).html( value.title );
-    template.find( s.authorSelector ).html( 'by ' + value.author.name ).attr( 'href', value.author.URL );
-    template.find( s.imageSelector ).attr({ 'src': value.imgURL, 'alt' : value.title });
-    template.find( s.targetURLSelector ).attr( 'href', value.targetURL );
-    template.find( s.priceSelector ).append( value.price );
-    template.find( s.likesSelector ).html( value.likes );
 
+/**
+ * GENERATE CATEGORIES
+ * @param {*} template 
+ * @param {*} categoriesArr 
+ */
+  var assignCategories =  function(template, categoriesArr) {
     // categories loop
-    $.each(value.categories, function(k, v) {
+    $.each(categoriesArr, function(k, v) {
       var categoryElm = template.find( s.categorySelector ).last();
-      categoryElm.html( value.categories[k] );
-      if ( k + 1 < value.categories.length ) {
+      categoryElm.html( categoriesArr[k] );
+      if ( k + 1 < categoriesArr.length ) {
         categoryElm.clone().insertAfter( categoryElm );
       }
     });
-    
+  };
+
+
+
+/**
+ * ASSIGN COLUMN CLASSES
+ * @param {*} template 
+ * @param {*} orientation 
+ */
+  var assignColumnClasses = function(template, orientation) {
+    var $col = template.find( s.columnSelector );
+    if ( orientation === "landscape" ) {
+      $col.addClass( s.landscapeColumnSelectors );
+    } else {
+      $col.addClass( s.portraitColumnSelectors );
+    }
+  };
+
+
+
+/**
+ * ASSIGN MAIN CONTENT
+ * @param {*} key 
+ * @param {*} value 
+ * @param {*} template 
+ */
+  var assignMainContent = function(key, value, template ) {
+    template // position
+      .find( s.positionSelector )
+      .html( key + 1 );
+    template // orientation
+      .find( s.orientationSelector )
+      .addClass( value.orientation );
+    template // art title
+      .find( s.titleSelector )
+      .html( value.title );
+    template // author
+      .find( s.authorSelector )
+      .html( 'by ' + value.author.name )
+      .attr( 'href', value.author.URL );
+    template // image src
+      .find( s.imageSelector )
+      .attr({ 'src': value.imgURL, 'alt' : value.title });
+    template // exteranl url assign
+      .find( s.targetURLSelector )
+      .attr( 'href', value.targetURL );
+    template // price
+      .find( s.priceSelector )
+      .append( value.price );
+    template // likes
+      .find( s.likesSelector )
+      .html( value.likes );
+  };
+
+
+
+/**
+ * CLONE TEMPLATE
+ * @param {*} template 
+ * @param {*} key 
+ * @param {*} dataObjLength 
+ */
+  var clone = function(template, key, dataObjLength) {
     // if statement to prevent cloaning of unecessary template at end of loop
-    if ( key + 1 < dataObjectLength ) {
+    if ( key + 1 < dataObjLength ) {
       template.clone().insertAfter( template );
     }
   };
 
+
+
+/**
+ * OVERSEEING THE ASSIGNING OF DATA TO HTML TEMPLATE
+ * @param {*} key 
+ * @param {*} value 
+ * @param {*} dataObjectLength 
+ */
+  var assign = function(key, value, dataObjectLength){
+    var template = $( s.containerSelector ).find( s.templateSelector ).last();
+    assignColumnClasses(template, value.orientation);
+    assignMainContent(key, value, template);
+    assignCategories(template, value.categories);
+    clone(template, key, dataObjectLength);
+  };
+
+
+
+/**
+ * GRAB JSON DATA AND EXECUTE ASSIGN()
+ * @param {*} dataInput 
+ */
   var dataLoop = function(dataInput) {
     $.each(dataInput, function(key, value) {
       assign(key, value, dataInput.length);
     });
   };
 
+
+
+/**
+ * INIT() - BEGIN THE DOMINO EFFECT
+ * @param {*} dataInput 
+ * @param {*} settingsInput 
+ */
   var initialize = function(dataInput, settingsInput) {
     // variable 's' is globalized
     s = settingsInput;
     dataLoop(dataInput);
   };
 
+
+
+
+
+/**
+ * ALL BEGINS HERE
+ */
   return  {
     init : initialize
   };
 })();
 
-// Art Data
+
+
+/* ============================================================== */
+
+
+
+
+/**
+ * DATA
+ */
 var artData = [{
   "title" : "Zebra",
   "targetURL" : "https://society6.com/product/zebra-tvf_stretched-canvas",
