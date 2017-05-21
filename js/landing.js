@@ -92,7 +92,7 @@ var artModule = (function(){
 
 
 /**
- * OVERSEEING THE ASSIGNING OF DATA TO HTML TEMPLATE
+ * OVERSEEING THE ASSIGMENT OF DATA TO HTML TEMPLATE
  * @param {*} key 
  * @param {*} value 
  * @param {*} dataObjectLength 
